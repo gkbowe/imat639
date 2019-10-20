@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="About Gregory Bowe - for UMUC IMAT 639">
+<title>Module Two</title>
+<link href="css/bootstrap-4.3.1.css" rel="stylesheet" type="text/css">
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<header>
+<ul class="nav nav-tabs">
+	 <!-- <li class="nav-item"> <a class="nav-link active" href="/index.html">Home</a> </li>-->
+	  <li class="nav-item"> <a class="nav-link" href="http://nova.umuc.edu/~im639a02/imat639/index.html">Home </a> </li>
+	  <li class="nav-item"> <a class="nav-link" href="http://nova.umuc.edu/~im639a02/imat639/about.html">About Greg</a> </li>
+	  
+</ul>
+</header>
+
+<body>
+
+	<div class="container-fluid">
+		<h1 class="display-4">Evaluation of American Retirement Homes, Inc. and Brookdale Senior Living</h1>
+		<h2>Introduction</h2>
+		<p class="lead">American Retirement Homes Inc. and Brookdale Senior Living are both companies that provide various forms of housing to seniors, including independent living and assisted living facilities. Both companies are competing for the same customers, both have websites providing information on local facilities, and both sites have the functionality for residents to make online payments. However, only American Retirement Homes looks and feels old while Brookdale is more modern, easier to navigate, and includes clear calls to action throughout the site.</p>
+	</div>
+	<div class="container-fluid thin table-responsive">
+		<table class="table table-bordered">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Company</th>
+      <th scope="col">Site URL</th>
+      <th scope="col">Color Scheme</th>
+      <th scope="col">Features</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">American Retirement Homes LLC</th>
+      <td><a href="https://www.americanretirementhomes.org/" target="_blank">https://www.americanretirementhomes.org/</a></td>
+      <td>Pink and green - old Florida colors.</td>
+      <td>Online bill payment</td>
+    </tr>
+    <tr>
+      <th scope="row">Brookdale Senior Living</th>
+		<td><a href="https://www.brookdale.com/en.html" target="_blank">https://www.brookdale.com/en.html</a></td>
+      <td>Blue, green, lots of white space</td>
+      <td>Online bill payment, audience location targeting for homepage content, calls to action throughout</td>
+    </tr>   
+  </tbody>
+</table>
+	</div>
+	<div class="container-fluid thin">
+		<h2>American Retirement Homes LLC Evaluation</h2>
+		<h3>Basic Design Principles</h3>
+		<p>On a desktop, this website has layout with 622-pixel width main section and a  325 pixel wide sidebar for additional content. This layout follows a traditional magazine layout, making it seem dated. The majority of the elements are left aligned using the float property, however the items in the sidebar are right aligned.</p>
+		<p>Page elements in this design include a page banner, navigation bar, picture carousel, home content area, sidebar, footer, footer elements with float-left properties, and bottom navigation menu, and bottom container under the footer div. All these are spaced adequately with a 32 pixel padding on the left and right, and various padding on top and bottom, depending on the element. </p>
+		<p>There is not  much repetition on individual pages, although most pages are structured like the home page. One of these elements that is repeated is the background image (bg-pink.jpg) that is repeated vertically using the css property: repeat-x.</p>
+		<p>Colors and the contrast of colors are one of the primary challenges of this site.  Pinks and greens are used throughout, offering little contrast, while the main navigation menu used a black font on a grey gradient.</p>
+		<h3>Color Theory Principles</h3>
+		<p>Although this site uses complementary colors, the choice offers little contrast and even less vibrancy, with the general color theme of pink and green being dated and perhaps better suited for a print design.</p>
+		<h3>Usability Principles</h3>
+		<p>There are several ways this site misses the mark in regards to usability. For starters, because the site is not responsive, it doesn’t accommodate left and right hand users or follow guidelines for labeling links and other elements used by screen readers. Fonts and images all use pixel sizes, rather than relative units such as em or %’s (Foraker Labs 2015).</p>
+		<p>Color use on the site is an issue as well, with 20 instances of insufficient color contrast on the homepage alone (SiteImprove 2019). These issues are even more of a concern because the target audience is people over 55, many of whom are at least likely to have challenges with their eye site simply by virtue of their age.</p>
+		<h2>Brookdale Senior Living</h2>
+		<h3>Basic Design Principles</h3>
+		<p>Brookdale follows modern design principles, including a response layout, center aligned text and elements that are adaptable to both left and right handed users (Foraker Labs 2015), and using contrasting colors, appropriate font weights and colors, and the right about of white space.</p>
+		<p>The home page has a main navigation at the top, a large hero/banner image that is the full width of the browser window, and clear calls-to-action throughout the site. Contact information is clearly visible at the top of the page and is “sticky”, meaning that the phone number is visible even when a user scrolls down the page.</p>
+		<p>The site navigation is well thought-out, capturing the customers journey with menu labels “Where to begin”, “Our Services”, and “Brookdale Life”. </p>
+		<p>Page elements follow a logical information architecture, from the hero section at the top, followed by dynamic content based on location (Washington DC Metro Area is shown on my browser), then a call to action, followed by several sections of additional content.</p>
+		<p>These elements used clear fonts, with the base style being 18 pixels, an almost black font color (#333 hex color), and all elements inside a css flexbox. This flexbox makes the responsive containers change sizes more logically when the browsers window size or device type is changed. </p>
+	
+		<p>Components are reused on other pages, making the design consistent across the site, and images are not used in the background at all. </p>
+		<h3>Color Theory Principles</h3>
+		<p>Brookdale does an excellent job in providing complementary, contrasting and vibrant colors that are not only readable, but consistent across the site. The overall color scheme represents calming and neutral colors that aren’t likely to over stimulate or stress the user out.  Color choices include identifying page links with a contrasting blue color, and changing the link color to orange when a mouse hovers over the link.  Contrasting colors and animation effects are used to get the users attention and help them find page links, start buttons, and other interactive page elements. </p>
+		<h3>Usability Principles</h3>
+		<p>Usability is much better on Brookdale than American Retirement Homes, with page elements responsive to the screen sizes and multiple devices (Foraker Labs, 2015). Page elements such as links, form elements, and images are labeled so they can be used by screen readers or read clearly if a user magnifies the screen size. </p>
+		<h2>Conclusion</h2>
+		<p>Both American Retirement Homes  and Brookdale target senior citizens and their families, all of whom are likely to be over 55 and many of whom are likely to have vision challenges.  However, only Brookdale does a good job designing its site with the needs of their demographic in mind. Furthermore, Brookdale has designed a site that is modern, usable, logical, and demonstrates an intentional effort to clearly communicate its message to its target audience.</p>
+		<h2>References:</h2>
+		<p>All-in-One Website Management and Automated Reporting Software. (2019). Retrieved September 27, 2019, from <a href="https://siteimprove.com/en-us/" target="_blank">https://siteimprove.com/en-us/</a>.</p>
+		<p>Principles of Accessible and Universal Design. (2015, January 1). Retrieved October 6, 2019, from 
+			<a href="http://www.usabilityfirst.com/about-usability/accessibility/principles-of-accessible-and-universal-design/" target="_blank">http://www.usabilityfirst.com/about-usability/accessibility/principles-of-accessible-and-universal-design/</a>.</p>
+	</div>
+	<footer class="container-fluid gbfooter">
+		<div class="gbfoot">&copy; 2019 Gregory Bowe - UMUC IMAT-639
+		</div>
+	</footer>
+	<!-- Optional JavaScript - Will take out what's not needed -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	
+	
+</body>
+	
+</html>

@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* custom styles for class project */
+
+.white{
+	color: #ffffff;
+	font-weight: 600;
+}
+.thin {
+  width: 95%;
+  padding-right: 25px;
+  padding-left: 25px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h3.slim, .h3 {
+	font-size: 1.50rem;
+	margin-top: 0;
+	margin-bottom: 0.25rem;
+}
+
+.aboutgreg {
+ background: url(images/Dc.jpg) fixed center no-repeat;
+background-color: #181C40;
+ background-size: cover;
+}
+
+.jumbo-h {
+  padding: 15px 25px 15px 15px;
+  background-color: #5E87E0;
+  opacity: 0.2;
+  filter: alpha(opacity=10); /* For IE8 and earlier */
+}
+.gbfooter {
+	margin-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 100%;
+    background-color: #1B2640;
+}
+
+.gbfoot {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-weight: 300;
+	text-align: center;
+	color: #ffffff;
+	
+}
