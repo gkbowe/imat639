@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #2F3A80;
+}
+
+.btn-gb {
+    color: #fff;
+    background-color: #2F3A80;
+    border-color: #2F3A80;
+}
 .music {
  background: url(images/video/coverr-piano.jpg) fixed center no-repeat;
 background-color: #181C40;
@@ -26,59 +36,6 @@ background-color: #181C40;
 	background-color: #1B2640;
 }
 
-
-/* style for video 
- .homepage-hero-module {
-    border-right: none;
-    border-left: none;
-    position: relative;
-  }
-
-  .no-video .video-container video,
-  .touch .video-container video {
-    display: none;
-  }
-
-  .no-video .video-container .poster,
-  .touch .video-container .poster {
-    display: block !important;
-  }
-
-  .video-container {
-    position: relative;
-    bottom: 0%;
-    left: 0%;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    background: #000;
-	 z-index: 2;
-  }
-
-  .video-container .poster img {
-    width: 100%;
-    bottom: 0;
-    position: absolute;
-  }
-
-  .video-container .filter {
-    z-index: 100;
-    position: absolute;
-    background: rgba(0, 0, 0, 0.4);
-    width: 100%;
-  }
-
-  .video-container video {
-    position: absolute;
-    z-index: 0;
-    bottom: 0;
-  }
-
-  .video-container video.fillWidth {
-    width: 100%;
-  }
-
-/* custom styles for class project */
 
 
 .white{

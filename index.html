@@ -1,44 +1,205 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="About Gregory Bowe - for UMUC IMAT 639">
-<title>Home Page</title>
+<title>Max Q Music Home Page</title>
 <link href="css/bootstrap-4.3.1.css" rel="stylesheet" type="text/css">
-<link href="style.css" rel="stylesheet" type="text/css">
-</head>
+<link href="landing.css" rel="stylesheet" type="text/css">
+<!--
+	----------/\----------
+	---------/  \---------
+	--------/    \--------
+	-------/      \-------
+	-------|      |-------
+	-------|      |-------
+	-------|      |-------
+	-------|      |-------
+	-------|      |-------
+	-------|      |-------
+	-------|      |-------
+	-------|      |-------
+	-------|      |-------
+	-------|      |-------
+	-------|      |-------
+	------/        \------
+	------|        |------
+	------|        |------
+	------|        |------
+	-----============-----
+	---===============----
+	--==================--
+	____ MAX-Q DESIGN ___
+-->
+	
+	 
+	<style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+	</head>
+<body>
 <header>
-<ul class="nav nav-tabs">
-	  <li class="nav-item"> <a class="nav-link active" href="/index.html">Home</a> </li>
-	  
-	  <li class="nav-item"> <a class="nav-link" href="http://nova.umuc.edu/~im639a02/imat639/about.html">About Greg</a> </li>
-	<li class="nav-item"> <a class="nav-link" href="http://nova.umuc.edu/~im639a02/imat639/module-two.html">Module Two</a> </li>
-	   <li class="nav-item"> <a class="nav-link" href="http://nova.umuc.edu/~im639a02/imat639/module-three.html">Module Three</a> </li>
-	<li class="nav-item"> <a class="nav-link" href="http://nova.umuc.edu/~im639a02/imat639/module-four.html">Module Four</a> </li>
-	  
-</ul>
+	<nav>
+		<ul class="nav nav-pills flex-column flex-sm-row nav-tabs">
+			  <li class="nav-item"> <a class="flex-sm-fill text-sm-center nav-link active" href="http://nova.umuc.edu/~im639a02/imat639/index.html">Home</a> </li>
+
+			  <li class="nav-item"> <a class="flex-sm-fill text-sm-center nav-link" href="http://nova.umuc.edu/~im639a02/imat639/about.html">About Greg</a> </li>
+			<li class="nav-item"> <a class="flex-sm-fill text-sm-center nav-link" href="http://nova.umuc.edu/~im639a02/imat639/on-sale-now.html">Specials</a> </li>
+			   <!--<li class="nav-item"> <a class="flex-sm-fill text-sm-center nav-link" href="http://nova.umuc.edu/~im639a02/imat639/module-three.html">Module Three</a> </li>
+			<li class="nav-item"> <a class="flex-sm-fill text-sm-center nav-link" href="http://nova.umuc.edu/~im639a02/imat639/module-four.html">Module Four</a> </li>-->
+
+		</ul>
+	</nav>
 </header>
 
-<body>
+<main role="main">
 
-	<div class="container">
-		<h1>Home Page for IMAT 639</h1>
-		<p>Text and more!</p>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!--<ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>-->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="img-fluid d-block w-100" src="images/specials.jpg" alt="First-slide todays specials">
+        <div class="container">
+          <div class="carousel-caption text-left d-none d-md-block">
+            <h1>On Sale Now</h1>
+            <p>Great Selection at Even Better Prices</p>
+            <p><a class="btn btn-md btn-primary btn-gb" href="http://nova.umuc.edu/~im639a02/imat639/on-sale-now.html" role="button">See More</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="img-fluid d-block w-100" src="images/drums.jpg" alt="Second-slide great gifts">
+        <div class="container">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Find The Perfect Gift</h1>
+            <p>Struggling with the paradox of choice? We can help.</p>
+            <p><a class="btn btn-md btn-primary btn-gb" href="http://nova.umuc.edu/~im639a02/imat639/on-sale-now.html" role="button">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="img-fluid d-block w-100" src="images/lessons.jpg" alt="Third-slide find lessons">
+        <div class="container">
+          <div class="carousel-caption d-none d-md-block text-right">
+            <h1>Find an Instructor</h1>
+            <p>Check out out music teachers. Whether you're playing <i>Night Music</i> on the violin or steel drums, our network of professional teachers are here to help.</p>
+            <p><a class="btn btn-md btn-primary btn-gb" href="http://nova.umuc.edu/~im639a02/imat639/on-sale-now.html" role="button">Find a Teacher</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Back</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+	<!--<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
+
+  <div class="container marketing">
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img class="img-thumbnail circle-img-1 rounded-circle" src="images/new.png" alt="drums" width="140" height="140" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>New Products</title>
+        <h2>New Products</h2>
+        <p>Check out our newest instruments, software, and more!</p>
+        <p><a class="btn btn-secondary" href="http://nova.umuc.edu/~im639a02/imat639/on-sale-now.html" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="img-thumbnail circle-img-2 rounded-circle" src="images/used.png" alt="drums" width="140" height="140" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Used Products</title>
+        <h2>Used Products</h2>
+        <p>Violins to glockenspiels - tuned-up and ready for you.</p>
+        <p><a class="btn btn-secondary" href="http://nova.umuc.edu/~im639a02/imat639/on-sale-now.html" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="img-thumbnail circle-img-3 rounded-circle" src="images/musician.png" alt="drums" width="140" height="140" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Music Lessons</title>
+        <h2>Music Lessons</h2>
+        <p>Get the help you need to play the way you know you can.</p>
+        <p><a class="btn btn-secondary" href="http://nova.umuc.edu/~im639a02/imat639/on-sale-now.html" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
 	
-	</div>
+    <!-- START THE FEATURETTES -->
+
+    <hr>
+
+    <div class="row featurette">
+      <div class="col-md-12">
+        <h2 class="featurette-heading">About Max Q Music <span class="text-muted">A Grade A Video Experience</span></h2>
+        <p class="lead">Why Max Q Music is Your New Favorite.</p>
+      </div>
+      <div class="col-md-12">
+        <div class="embed-responsive embed-responsive-4by3">
+		  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/hukVqdHZ5Lo"></iframe>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!--<div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Max Q - It's More Than Music. <span class="text-muted">Watch This To Learn More</span></h2>
+        <p class="lead">About Maximum Dynamic Pressure and why it matters</p>
+      </div>
+      <div class="col-md-5 order-md-2">
+		  <div class="embed-responsive embed-responsive-4by3">
+		  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1OMv3ueXUoc"></iframe>
+	  </div>
+        <!--<svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>-->
+	  <!--</div>
+    </div>
+
+    <hr class="featurette-divider">-->
+
+
+    <!-- /END THE FEATURETTES -->
+</div><!--container-->
+  </div><!-- /.container -->
+
+
 	<footer class="container-fluid gbfooter">
 		<div class="gbfoot">&copy; 2019 Gregory Bowe - UMUC IMAT-639
 		</div>
 	</footer>
 	<!-- Optional JavaScript - Will take out what's not needed -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.js"><\/script>')</script><script src="js/bootstrap.bundle.min.js"></script>
 	
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 	
+	</main>
 </body>
 	
 </html>
